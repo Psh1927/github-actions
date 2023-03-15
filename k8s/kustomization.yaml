@@ -4,8 +4,8 @@ resources:
 - deployment.yaml
 - service.yaml
 - ingress.yaml
-namespace: python-app-blue
+namespace: python-app-green
 images:
 - name: hello-gitops
   newName: psh1927/hello-gitops
-  newTag: f28d73807999db7580388a8f9b3fc1943212dd57
+  newTag: 715b3f70cfb75539d1e874830cf34cca5ab2b123
